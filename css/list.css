@@ -1,0 +1,56 @@
+/* 列表页秒杀logo样式sk */
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 2px solid #b1191a;
+    padding-left: 10px;
+}
+
+/* 列表页导航栏nav样式 */
+/* 列表页导航栏nav左侧样式 */
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+}
+/* 列表页导航栏nav右侧样式 */
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 21px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after{
+    content: '\e907';
+    font-family: 'icomoon';
+    margin-left: 6px;
+}
+
+/* 列表页主体内容container_bd样式 */
+.container_bd ul li{
+    float: left;
+    margin-right: 10px;
+    border: 1px solid transparent;
+}
+.container_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.container_bd ul li:hover {
+    border: 1px solid red;
+}

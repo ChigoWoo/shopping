@@ -1,0 +1,7 @@
+.user_protcol a {
+    color: #333;
+    margin-left: 110px;
+}
+.user_protcol a:hover {
+    color: red;
+}
