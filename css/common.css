@@ -290,3 +290,32 @@
 .mod_copyright .links a:first-child {
     border-left: 0;
 }
+
+/* 右侧电梯导航栏样式 */
+.right-elevator {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    margin-left: 625px;
+    width: 50px;
+    height: 108px;
+    background-color: #fff;
+}
+.right-elevator div a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+.right-elevator .feedback a {
+    background: url(../images/feedback0.png) no-repeat;
+}
+.right-elevator .feedback a:hover {
+    background: url(../images/feedback1.png) no-repeat;
+}
+.right-elevator .return-top a {
+    background: url(../images/return-top0.png) no-repeat;
+}
+.right-elevator .return-top a:hover {
+    background: url(../images/return-top1.png) no-repeat;
+}
